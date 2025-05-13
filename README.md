@@ -45,7 +45,7 @@ DELETE /livros/{id} - Deletar livro</pre>
     <h3 style="color: #2c3e50;">Criar desejo</h3>
     <pre style="color: #34495e;">
 {
-  "titulo": "O Senhor dos ",
+  "titulo": "O Senhor dos Anéis",
   "autor": "J.R.R. Tolkien",
   "genero": "Fantasia",
   "capa": "https://link-da-capa.com/imagem.jpg",
