@@ -67,7 +67,6 @@ DELETE /livros/{id} - Deletar livro</pre>
     <h3 style="color: #2c3e50;">Tabela: livros</h3>
     <pre style="color: #34495e;">
 
-
 id               
 INT AUTO_INCREMENT PRIMARY KEY
 
