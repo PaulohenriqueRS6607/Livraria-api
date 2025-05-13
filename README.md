@@ -57,4 +57,44 @@ DELETE /livros/{id} - Deletar livro</pre>
 </pre>
   </div>
 
-<div style="background-color: #e6f7ff; padding: 20px; border-radius: 10px; margin: 20px 0;"> <h2 style="color: #2c3e50;">💾 Banco de Dados - MySQL</h2> <p style="color: #34495e;">O banco de dados utilizado é o <strong>livraria</strong>. Nele, existe uma tabela responsável pelo armazenamento das informações dos livros desejados. A tabela contém os seguintes campos:</p> <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin: 10px 0;"> <h3 style="color: #2c3e50;">Tabela: livros</h3> <pre style="color: #34495e;"> id INT AUTO_INCREMENT PRIMARY KEY titulo VARCHAR(255) autor VARCHAR(255) genero VARCHAR(100) capa VARCHAR(255) dataPublicacao DATE descricao TEXT preco DECIMAL(10, 2) codBarrasNum BIGINT</pre> </div> </div>
+---
+
+<div style="background-color: #e6f7ff; padding: 20px; border-radius: 10px; margin: 20px 0;">
+  <h2 style="color: #2c3e50;">💾 Banco de Dados - MySQL</h2>
+  <p style="color: #34495e;">O banco de dados utilizado é o <strong>livraria</strong>. Nele, existe uma tabela responsável pelo armazenamento das informações dos livros desejados. A tabela contém os seguintes campos:</p>
+
+  <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin: 10px 0;">
+    <h3 style="color: #2c3e50;">Tabela: livros</h3>
+    <pre style="color: #34495e;">
+id               
+INT AUTO_INCREMENT PRIMARY KEY
+
+titulo
+VARCHAR(255)
+
+autor
+VARCHAR(255)
+
+genero
+VARCHAR(100)
+
+capa
+VARCHAR(255)
+
+dataPublicacao
+DATE
+
+descricao
+TEXT
+
+preco
+DECIMAL(10, 2)
+
+codBarrasNum
+BIGINT</pre>
+
+  </div>
+</div>
+
+---
+
