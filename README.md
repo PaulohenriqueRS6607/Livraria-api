@@ -66,8 +66,11 @@ DELETE /livros/{id} - Deletar livro</pre>
   <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin: 10px 0;">
     <h3 style="color: #2c3e50;">Tabela: livros</h3>
     <pre style="color: #34495e;">
+
+
 id               
 INT AUTO_INCREMENT PRIMARY KEY
+
 
 titulo
 VARCHAR(255)
